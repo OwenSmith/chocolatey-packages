@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>xenserver-pv-tools</id>
+    <version>9.3.1</version>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>xenserver-pv-tools (Install)</title>
+    <authors>OwenSmith</authors>
+    <owners>XenServer</owners>
+    <projectUrl>http://xenserver.org/open-source-virtualization-download.html</projectUrl>
+    <packageSourceUrl>https://github.com/OwenSmith/chocolatey-packages</packageSourceUrl>
+    <copyright>2023 Cloud Software Group, Inc.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>xenserver-pv-tools xenserver xentools citrix</tags>
+    <summary>XenServer PV Tools for Windows</summary>
+    <description>Installs Windows PV Tools for XenServer VMs</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
