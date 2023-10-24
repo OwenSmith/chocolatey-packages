@@ -9,8 +9,10 @@
     <title>xenserver-pv-tools (Install)</title>
     <authors>OwenSmith</authors>
     <owners>XenServer</owners>
-    <projectUrl>http://xenserver.org/open-source-virtualization-download.html</projectUrl>
+    <projectUrl>http://www.xenserver.com/</projectUrl>
     <packageSourceUrl>https://github.com/OwenSmith/chocolatey-packages</packageSourceUrl>
+    <iconUrl>https://www.xenserver.com/content/dam/xenserver/images/xenserver-full-color-rgb.svg</iconUrl>
+    <docsUrl>https://docs.xenserver.com/</docsUrl>
     <copyright>2023 Cloud Software Group, Inc.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>xenserver-pv-tools xenserver xentools citrix</tags>
