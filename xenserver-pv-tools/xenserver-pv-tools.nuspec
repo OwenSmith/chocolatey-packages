@@ -3,7 +3,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>xenserver-pv-tools</id>
-    <version>9.3.1</version>
+    <version>9.3.2</version>
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <title>xenserver-pv-tools (Install)</title>

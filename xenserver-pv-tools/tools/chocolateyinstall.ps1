@@ -2,7 +2,7 @@
 $ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$updateUrl 	= 'https://pvupdates.vmd.citrix.com/updates.9.3.1.91.json'
+$updateUrl 	= 'https://pvupdates.vmd.citrix.com/updates.9.3.2.110.json'
 $userAgent 	= 'choco-install'
 
 $json = Invoke-RestMethod -Uri $updateUrl -UserAgent $userAgent
