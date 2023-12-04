@@ -1,25 +1,19 @@
 ﻿
-$ErrorActionPreference = 'Stop'; # stop on all errors
+$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-
-$updateUrl 	= 'https://pvupdates.vmd.citrix.com/updates.9.3.2.110.json'
-$userAgent 	= 'choco-install'
-
-$json = Invoke-RestMethod -Uri $updateUrl -UserAgent $userAgent
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'MSI'
   softwareName  = 'xenserver-pv-tools*'
-  url           = $json.x86.url
-  url64bit      = $json.x64.url
-  checksum      = $json.x86.checksum
-  checksum64    = $json.x64.checksum
+  url           =  'http://downloadns.citrix.com.edgesuite.net/17481/managementagentx86.msi'
+  url64bit      =  'http://downloadns.citrix.com.edgesuite.net/17480/managementagentx64.msi'
+  checksum      =  'B0FA92E6B361B63EDC91AA59DA5FAF22EA16584975CC2CCBA4A8FB322431FA2C'
+  checksum64    =  '74473FB1A1CA9BCFEE933310B1A83A971698B0405AAF6EF45BB32393925F6286'
   checksumType  = 'sha256'
   checksumType64= 'sha256'
 
-  # MSI
   silentArgs    = "/qn ALLOWDRIVERINSTALL=YES /log `"$env:TEMP\chocolatey\$($packageName)\$($packageName).Install.log`""
   validExitCodes= @(0, 3010, 1641)
 }

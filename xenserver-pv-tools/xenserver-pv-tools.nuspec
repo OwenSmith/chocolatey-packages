@@ -1,14 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>xenserver-pv-tools</id>
     <version>9.3.2</version>
 
-    <!-- == SOFTWARE SPECIFIC SECTION == -->
     <title>xenserver-pv-tools (Install)</title>
     <authors>OwenSmith</authors>
-    <owners>XenServer</owners>
+    <owners>XenServer OwenSmith</owners>
     <projectUrl>http://www.xenserver.com/</projectUrl>
     <packageSourceUrl>https://github.com/OwenSmith/chocolatey-packages</packageSourceUrl>
     <iconUrl>https://www.xenserver.com/content/dam/xenserver/images/xenserver-full-color-rgb.svg</iconUrl>
