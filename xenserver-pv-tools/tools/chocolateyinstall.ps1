@@ -7,10 +7,10 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'MSI'
   softwareName  = 'xenserver-pv-tools*'
-  url           =  'http://downloadns.citrix.com.edgesuite.net/17462/managementagentx86.msi'
-  url64bit      =  'http://downloadns.citrix.com.edgesuite.net/17461/managementagentx64.msi'
-  checksum      =  'AD7CC72E77F1F63AD5028F00C50AAD0A06D4003DDB97F30F5B835162F751A46C'
-  checksum64    =  '14C0C488E1F631291220D0660811413C0CC7537D7497DE93E76CF8790DC4A986'
+  url           =  'http://downloadns.citrix.com.edgesuite.net/17481/managementagentx86.msi'
+  url64bit      =  'http://downloadns.citrix.com.edgesuite.net/17480/managementagentx64.msi'
+  checksum      =  'B0FA92E6B361B63EDC91AA59DA5FAF22EA16584975CC2CCBA4A8FB322431FA2C'
+  checksum64    =  '74473FB1A1CA9BCFEE933310B1A83A971698B0405AAF6EF45BB32393925F6286'
   checksumType  = 'sha256'
   checksumType64= 'sha256'
 

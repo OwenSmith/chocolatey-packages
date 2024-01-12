@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>xenserver-pv-tools</id>
-    <version>9.3.1</version>
+    <version>9.3.2</version>
 
     <title>xenserver-pv-tools (Install)</title>
     <authors>OwenSmith</authors>
