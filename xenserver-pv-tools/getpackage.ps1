@@ -1,5 +1,5 @@
 
-$updateUrl 	= 'https://pvupdates.vmd.citrix.com/updates.9.3.2.110.json'
+$updateUrl 	= 'https://pvupdates.vmd.citrix.com/updates.9.3.3.125.json'
 $userAgent 	= 'choco-install'
 
 $json = Invoke-RestMethod -Uri $updateUrl -UserAgent $userAgent

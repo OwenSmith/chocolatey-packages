@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>xenserver-pv-tools</id>
-    <version>9.3.2</version>
+    <version>9.3.3</version>
 
     <title>xenserver-pv-tools (Install)</title>
     <authors>OwenSmith</authors>
@@ -11,7 +11,7 @@
     <packageSourceUrl>https://github.com/OwenSmith/chocolatey-packages</packageSourceUrl>
     <iconUrl>https://www.xenserver.com/content/dam/xenserver/images/xenserver-full-color-rgb.svg</iconUrl>
     <docsUrl>https://docs.xenserver.com/</docsUrl>
-    <copyright>2023 Cloud Software Group, Inc.</copyright>
+    <copyright>2024 Cloud Software Group, Inc.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>xenserver-pv-tools xenserver xentools citrix</tags>
     <summary>XenServer PV Tools for Windows</summary>
